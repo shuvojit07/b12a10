@@ -289,3 +289,8 @@ font-weight: 400;
 line-height: 140%;
 letter-spacing: 0%;
 }
+
+.ready-to-img{
+    border: none;
+    border-radius: 35px;
+}
