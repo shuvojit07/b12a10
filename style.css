@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* shear btn */
+.btn {
+    padding: 17px;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform .2s;
+
+}
+
+.btn:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.5)
+}
+
+/* header part  */
+.header {
+    background-image: url('./Assets/Hero-bg.png');
+    width: 100%;
+    height: 600px;
+    left: 1px;
+    margin-bottom: 100px;
+
+}
+
+/* header nav */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 55px;
+}
+
+/* h1 */
+.header-nav-h1 {
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 34px;
+}
+
+.header-nav-div {
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.header-nav-button {
+    padding: 17px;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #4E47FF;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    transition: transform .2s;
+
+
+}
+
+.header-nav-button:hover {
+    background-color: yellow;
+    color: black;
+    transform: scale(1.5)
+}
+
+/* header-section-h1 */
+.header-section {
+    text-align: center;
+
+}
+
+.header-section-h1 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 905px;
+    height: 237px;
+    margin-top: 78px;
+    margin-left: 230px;
+    margin-right: 265px;
+
+
+}
+
+
+
+
+/* main */
+.main {
+    margin: 50px 141px;
+}
+
+/* main info */
+
+.main-div-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-div-info {
+    justify-content: center;
+    margin-top: 65px;
+}
+
+.main-div-info-h1 {
+    color: rgb(37, 36, 50);
+    font-family: Raleway;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 49px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* main-wc */
+.main-wc {
+    border-radius: 35px;
+}
