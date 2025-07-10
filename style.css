@@ -48,6 +48,7 @@
     font-family: "Inter", sans-serif;
     font-weight: 900;
     font-size: 34px;
+    border: 1px dashed #7e7e7e ;
 }
 
 .header-nav-div {
@@ -244,17 +245,17 @@
 }
 
 .user-say-revi-card-reviewer {
-    margin-left: 40px;
-    padding: 0px;
-    /* Body Strong */
+    display: flex;
+    gap: 15px;
     color: rgb(117, 117, 117);
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 140%;
-    letter-spacing: 0%;
-    text-align: left;
+}
 
+.reviewer-img {
+    border: none;
+    border-radius: 50px;
 }
 
 /* ready-to */
@@ -340,14 +341,55 @@
 }
 
 .textarea {
-    position: static;
     width: 300px;
     height: 85px;
     gap: 10px;
-    padding: 20px 32px 20px 32px;
     margin: 10px 0px;
-    box-sizing: border-box;
     border: 1px solid rgb(214, 221, 237);
     border-radius: 10px;
     background: rgb(255, 255, 255);
+}
+
+.btn-edit {
+    width: 300px;
+    height: 62px;
+    text-align: right;
+}
+
+.footer {
+    text-align: center;
+    margin: -50px 340px;
+    padding: 5px;
+}
+
+.footer-link {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer-title {
+    color: #4E47FF;
+    font-family: "Inter", sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+}
+
+.footer-p-info {
+    color: rgb(137, 135, 161);
+    margin-top: -50px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.footer-link-info {
+    text-decoration: none;
+    color: rgb(137, 135, 161);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
 }
